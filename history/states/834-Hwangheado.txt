@@ -1,0 +1,22 @@
+state={
+	id=834
+	name="STATE_834"
+	state_category = town
+	history={
+		owner = DPK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = KOR
+		add_core_of = DPK
+
+	}
+	provinces={
+		7155 10065 11915 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

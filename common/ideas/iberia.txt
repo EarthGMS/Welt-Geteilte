@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+		IBR_shadow_of_franco = {
+
+			allowed = {
+				original_tag = IBR
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.50
+				war_support_factor = 0.05
+			}
+		}
+
+		IBR_estado_novo = {
+
+			allowed = {
+				original_tag = IBR
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				political_power_gain = 0.20
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.15
+				}
+			}
+		}
+
+		IBR_separatist_terrorism = {
+
+			allowed = {
+				original_tag = IBR
+			}
+			
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
+		IBR_church_domination = {
+
+			allowed = {
+				original_tag = IBR
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.025
+				war_support_factor = 0.05
+			}
+		}
+
+		IBR_internal_disagreements = {
+
+			allowed = {
+				original_tag = IBR
+			}
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = -0.1
+				production_speed_fuel_silo_factor = -0.1
+				stability_factor = -0.05
+				research_speed_factor = -0.025
+			}
+		}
+		
+    }
+}

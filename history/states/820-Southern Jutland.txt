@@ -1,0 +1,15 @@
+state={
+	id=820
+	name="STATE_820"
+	state_category = rural
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		add_core_of = DEN
+	}
+	provinces={
+		332 11251 
+	}
+	manpower=2344
+	buildings_max_level_factor=1.000
+}

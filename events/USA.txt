@@ -1,0 +1,111 @@
+add_namespace = daily_summary
+add_namespace = USA_flavour
+add_namespace = USA_diplomatic
+
+
+country_event = {
+	id = daily_summary.1
+	title = daily_summary.1.t
+	desc = daily_summary.1.d
+	picture = GFX_report_event_turkish_strait
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = daily_summary.1.a
+
+	}
+}
+
+country_event = {
+	id = daily_summary.2
+	title = daily_summary.2.t
+	desc = daily_summary.2.d
+	picture = GFX_report_event_korea
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = daily_summary.2.a
+
+	}
+}
+
+country_event = {
+	id = daily_summary.3
+	title = daily_summary.3.t
+	desc = daily_summary.3.d
+	picture = GFX_report_event_stalin
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = daily_summary.3.a
+
+	}
+}
+
+
+country_event = {
+	id = USA_diplomatic.1 
+	title = USA_diplomatic.1.t
+	desc = USA_diplomatic.1.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+	name = USA_diplomatic.1.a
+	}
+	option = {
+	name = USA_diplomatic.1.b
+	}
+}
+
+country_event = {
+	id = USA_flavour.2
+	title = USA_flavour.2.t
+	desc = USA_flavour.2.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+	name = USA_flavour.2.a
+	stability_factor = -0.02
+	}
+}
+
+country_event = {
+	id = USA_flavour.3
+	title = USA_flavour.3.t
+	desc = USA_flavour.3.d 
+
+	is_triggered_only = yes
+	fire_only_once = yes 
+
+	option = {
+		name = USA_flavour.3.a
+	}
+}
+
+country_event = {
+	id = USA_flavour.4
+	title = USA_flavour.4.t
+	desc = USA_flavour.4.d 
+
+	is_triggered_only = yes
+	fire_only_once = yes 
+
+	option = {
+		name = USA_flavour.4.a
+	}
+}

@@ -1,0 +1,17 @@
+add_namespace = GER_flavour
+
+
+country_event = {
+	id = GER_flavour.1
+	title = GER_flavour.1.t
+	desc = GER_flavour.1.d
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = GER_flavour.1.a
+
+	}
+}

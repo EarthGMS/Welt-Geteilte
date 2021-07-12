@@ -1,0 +1,56 @@
+ideas = {
+
+    head_of_government = {
+        
+        jawaharlal_nehru = {
+
+            allowed = {
+                original_tag = RAJ
+            }
+
+            available = {
+                has_government = democratic_socialism
+                NOT = {
+                    has_country_leader = {
+                        name = "Jawaharlal Nehru"
+                        ruling_only = yes
+                    }
+                }
+            }
+            traits = {popular_figurehead}
+        }
+    }
+
+    minister_of_interior = {
+
+        chakravarti_rajagopalachari = {
+
+            allowed = {
+                original_tag = RAJ
+            }
+
+            available = {
+                has_government = democratic_socialism
+            }
+
+            traits = {popular_figurehead}
+        }
+    }
+
+    minister_of_economy = {
+
+        shri_kishna_sinha = {
+
+            allowed = {
+                original_tag = RAJ
+            }
+
+            available = {
+                has_government = democratic_socialism
+            }
+
+            traits = {social_reformer}
+        }
+    }
+
+}

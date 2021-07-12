@@ -1,0 +1,52 @@
+ideas = {
+
+	country = {
+		german_devastation = {
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			}
+		}
+
+		all_or_nothing = {
+
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			}
+		}
+
+		illegitimate_state = {
+			
+			available = {
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			}
+		}	
+    }
+}

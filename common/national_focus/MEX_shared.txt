@@ -1,0 +1,425 @@
+﻿	shared_focus = {
+		id = MEX_the_perfect_dictatorship
+		icon = GFX_focus_MEX_the_perfect_dictatorship
+		x = 10
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_reinforcements_against_toledano
+		icon = none
+		x = -3
+		y = 1
+		relative_position_id = MEX_the_perfect_dictatorship
+		prerequisite = { focus = MEX_the_perfect_dictatorship }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_the_fist_of_order
+		icon = none
+		x = 1
+		y = 1
+		relative_position_id = MEX_reinforcements_against_toledano
+		prerequisite = { focus = MEX_reinforcements_against_toledano }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		mutually_exclusive = {
+		focus = MEX_destroy_the_socialists
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_negotiate_with_toledano
+		icon = none
+		x = 0
+		y = 1
+		relative_position_id = MEX_the_fist_of_order
+		prerequisite = { focus = MEX_the_fist_of_order }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_destroy_the_socialists
+		icon = none
+		x = -1
+		y = 1
+		relative_position_id = MEX_reinforcements_against_toledano
+		prerequisite = { focus = MEX_reinforcements_against_toledano }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		mutually_exclusive = {
+		focus = MEX_the_fist_of_order
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_sympathizers_within_our_ranks
+		icon = none
+		x = 0
+		y = 1
+		relative_position_id = MEX_destroy_the_socialists
+		prerequisite = { focus = MEX_destroy_the_socialists }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_the_fires_Will_burn_out
+		icon = none
+		x = 1
+		y = 1
+		relative_position_id = MEX_sympathizers_within_our_ranks
+		prerequisite = { focus = MEX_negotiate_with_toledano }
+		prerequisite = { focus = MEX_sympathizers_within_our_ranks }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_stabilizing_the_regime
+		icon = none
+		x = 3
+		y = 1
+		relative_position_id = MEX_the_perfect_dictatorship
+		prerequisite = { focus = MEX_the_perfect_dictatorship }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_mexico_needs_strongmen
+		icon = none
+		x = 1
+		y = 1
+		relative_position_id = MEX_stabilizing_the_regime
+		prerequisite = { focus = MEX_stabilizing_the_regime }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		mutually_exclusive = {
+		focus = MEX_reforms_where_necessary
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_crack_down_on_trade_unions
+		icon = none
+		x = 0
+		y = 1
+		relative_position_id = MEX_mexico_needs_strongmen
+		prerequisite = { focus = MEX_mexico_needs_strongmen }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_reforms_where_necessary
+		icon = none
+		x = -1
+		y = 1
+		relative_position_id = MEX_stabilizing_the_regime
+		prerequisite = { focus = MEX_stabilizing_the_regime }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		mutually_exclusive = {
+		focus = MEX_mexico_needs_strongmen
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_open_suffrage_to_women
+
+		icon = none
+		x = 0
+		y = 1
+		relative_position_id = MEX_reforms_where_necessary
+		prerequisite = { focus = MEX_reforms_where_necessary }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_society_of_cards
+
+		icon = none
+		x = 1
+		y = 1
+		relative_position_id = MEX_open_suffrage_to_women
+		prerequisite = { focus = MEX_open_suffrage_to_women }
+		prerequisite = { focus = MEX_crack_down_on_trade_unions }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_there_is_nothing_burning
+
+		icon = none
+		x = -3
+		y = 1
+		relative_position_id = MEX_society_of_cards
+		prerequisite = { focus = MEX_the_fires_Will_burn_out }
+		prerequisite = { focus = MEX_society_of_cards }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = MEX_dissent_is_communism
+
+		icon = none
+		x = 0
+		y = 1
+		relative_position_id = MEX_there_is_nothing_burning
+		prerequisite = { focus = MEX_there_is_nothing_burning }
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}

@@ -1,0 +1,32 @@
+add_namespace = WBA_flavour
+
+country_event = {
+	id = WBA_flavour.1
+	title = WBA_flavour.1.t
+	desc = WBA_flavour.1.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WBA_flavour.1.a
+		stability_factor = -0.02
+		country_event = {
+			id = WBA_flavour.2
+			days = 5
+		}
+	}
+}
+
+country_event = {
+	id = WBA_flavour.2
+	title = WBA_flavour.2.t
+	desc = WBA_flavour.2.d 
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = WBA_flavour.2.a 
+	}
+}

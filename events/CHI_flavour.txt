@@ -1,0 +1,108 @@
+add_namespace = CHI_flavour
+
+
+country_event = { # puyi return event
+	id = CHI_flavour.1
+	title = CHI_flavour.1.t
+	desc = CHI_flavour.1.d
+	picture = GFX_report_event_puyi
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.1.a
+
+	}
+}
+
+country_event = {
+	id = CHI_flavour.2
+	title = CHI_flavour.2.t
+	desc = CHI_flavour.2.d
+	picture = GFX_report_event_001
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.2.a
+
+	}
+}
+
+country_event = {
+	id = CHI_flavour.3
+	title = CHI_flavour.3.t
+	desc = CHI_flavour.3.d
+	picture = GFX_report_event_reformists
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.3.a
+	}
+}
+
+country_event = {
+	id = CHI_flavour.4
+	title = CHI_flavour.4.t
+	desc = CHI_flavour.4.d
+	picture = GFX_report_event_lin_sen
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.4.a
+	}
+}
+
+country_event = {
+	id = CHI_flavour.5
+	title = CHI_flavour.5.t
+	desc = CHI_flavour.5.d
+	picture = GFX_report_event_pragmatists
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.5.a
+	}
+}
+
+country_event = {
+	id = CHI_flavour.6
+	title = CHI_flavour.6.t
+	desc = CHI_flavour.6.d
+	picture = GFX_report_event_jishen
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.6.a
+	}
+}
+
+###############################
+country_event = {
+	id = CHI_flavour.7
+	title = CHI_flavour.7.t
+	desc = CHI_flavour.7.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CHI_flavour.7.a
+	}
+}

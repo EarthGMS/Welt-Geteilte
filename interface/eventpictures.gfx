@@ -1,0 +1,48 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_turkish_strait"
+		texturefile = "gfx/event_pictures/GFX_report_event_turkish_strait.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_stalin"
+		texturefile = "gfx/event_pictures/GFX_report_event_stalin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_korea"
+		texturefile = "gfx/event_pictures/GFX_report_event_korea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_puyi"
+		texturefile = "gfx/event_pictures/GFX_report_event_puyi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_reformists"
+		texturefile = "gfx/event_pictures/GFX_report_event_reformists.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_lin_sen"
+		texturefile = "gfx/event_pictures/GFX_report_event_lin_sen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pragmatists"
+		texturefile = "gfx/event_pictures/GFX_report_event_pragmatists.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jishen"
+		texturefile = "gfx/event_pictures/GFX_report_event_jishen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_the_marshals_end"
+		texturefile = "gfx/event_pictures/GFX_report_event_the_marshals_end.dds"
+	}
+	
+}

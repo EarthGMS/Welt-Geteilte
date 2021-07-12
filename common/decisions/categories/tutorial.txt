@@ -1,0 +1,8 @@
+tutorial = {
+	icon = gfx/tutorial/tutorial_icon.png
+	allowed = {
+		always = yes 
+	}
+	visible = {
+	}
+}

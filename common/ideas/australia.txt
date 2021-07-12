@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		AST_ties_to_britain = {
+			picture = AST_ties_to_britain
+			
+			allowed = { 
+			    tag = GER
+			}
+
+            available = { 
+			}
+ 
+             cancel = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			
+			modifier = {
+			}
+		}
+    }	
+}

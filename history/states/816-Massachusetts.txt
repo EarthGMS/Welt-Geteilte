@@ -1,0 +1,13 @@
+state={
+	id=816
+	name="STATE_816"
+		history = {
+		owner = USA
+		add_core_of = USA
+	}
+	provinces={
+		715 718 905 908 3710 3906 6732 
+	}
+	manpower=342
+	buildings_max_level_factor=1.000
+}

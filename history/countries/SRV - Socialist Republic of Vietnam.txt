@@ -1,0 +1,33 @@
+﻿capital = 671 #Hanoi
+
+oob = SRV_1952
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = marxism_leninism
+#	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	marxism_leninism = 85
+	vanguardism = 7
+	libertarian_socialism = 5
+	social_democracy = 3
+}
+
+create_country_leader = {
+	name = "Ho Chi Minh" 
+	desc = "POLITICS_SRV_HO_CHI_MINH_DESC"
+	picture = "gfx/leaders/SRV/Portrait_SRV_Ho_Chi_Minh.png"
+	expire = "1953.3.1"
+	ideology = leninism
+	traits = {
+		respected_leader
+	}
+}
+}
+
+
+

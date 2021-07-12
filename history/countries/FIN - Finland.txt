@@ -1,0 +1,85 @@
+﻿capital = 111
+
+oob = "FIN_1936"
+
+set_research_slots = 3
+
+set_convoys = 5
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = marxism_leninism
+	last_election = "1939.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	marxism_leninism = 60
+	market_socialism = 10
+	social_democracy = 10
+	liberation_socialism = 20
+}
+
+create_country_leader = {
+	name = "Urho Kekkonen"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "gfx/leaders/FIN/Portrait_FIN_Urho_Kekkonen.png"
+	expire = "1965.1.1"
+	ideology = authdem
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aimo Aaltonen"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "gfx/leaders/FIN/Portrait_FIN_Aimo_Aaltonen.png"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+
+
+add_ideas = {
+}
+
+create_field_marshal = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "portrait_fin_carl_mannerheim.dds"
+	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
+	skill = 5
+	id = 58
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { winter_specialist ranger }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vilho Petter Nenonen"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { winter_specialist commando }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 4
+    logistics_skill = 2
+}

@@ -1,0 +1,32 @@
+add_namespace = normal_events_ENG
+country_event = {
+	id = normal_events_ENG.1
+	title = normal_events_ENG.1.t
+	desc = normal_events_ENG.1.d
+	picture = GFX_report_event_turkish_strait
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = normal_events_ENG.1.a
+			MAU = {
+				transfer_state = 547
+			}
+		}
+	}
+}
+
+country_event = {
+	id = normal_events_ENG.2
+	title = normal_events_ENG.2.t
+	desc = normal_events_ENG.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = normal_events_ENG.2.a
+		set_country_flag = ENG_decolonise
+		}
+	option = {
+		name = normal_events_ENG.2.b
+		set_country_flag = ENG_colonise
+	}
+}

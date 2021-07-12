@@ -1,0 +1,12 @@
+﻿focus_tree = {
+	id = ENG_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_the_last_days_of_the_british_empire
+}

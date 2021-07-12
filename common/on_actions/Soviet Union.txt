@@ -1,0 +1,32 @@
+on_actions = {
+
+	# mod 
+	on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1952.1.2
+					NOT = {
+						has_global_flag = cancel_event_TOL
+					}
+				}
+
+				USA = {
+					country_event = { id = daily_summary.1 days = 2 }
+				}
+			}
+		}
+	}
+	on_startup = {
+		if = {
+			limit = {
+				has_start_date < 1952.2.4
+			}
+		}
+		
+		SOV = {
+			country_event = { id = SOV_crimea_deportations.1 }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=819
+	name="STATE_819"
+	history = {
+		owner = ENG
+		add_core_of = EGY
+	}
+	provinces={
+		4073 12049 
+	}
+	manpower=434
+	buildings_max_level_factor=1.000
+}

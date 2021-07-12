@@ -1,0 +1,27 @@
+on_actions = {
+
+	# mod 
+	on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1952.1.2
+					NOT = {
+						has_global_flag = cancel_event_TOL
+					}
+				}
+
+				USA = {
+					country_event = { id = daily_summary.1 days = 2 }
+					country_event = { id = daily_summary.2 days = 5 }
+					country_event = { id = daily_summary.3 days = 10 }
+					country_event = { id = USA_flavour.1 days = 161 }
+					country_event = { id = USA_flavour.2 days = 39 }
+					country_event = { id = USA_flavour.3 days = 42 }
+					country_event = { id = USA_flavour.4 days = 46}
+				}
+			}
+		}
+	}
+}

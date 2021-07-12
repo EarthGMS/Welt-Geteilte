@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+		CAN_legacy_of_mackenzie_king = {
+			picture = gfx/interface/ideas/CAN_legacy_of_mackenzie_king.png
+			
+			allowed = { 
+			    tag = CAN
+			}
+
+            available = { 
+				NOT = {
+					has_country_flag = cancel_CAN_mackenzie_king # Just in case for content purposes
+				}
+			}
+ 
+             cancel = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+    }	
+}

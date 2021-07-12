@@ -1,0 +1,13 @@
+add_namespace = CAN_flavour
+country_event = { # Keeping the Oil Flowing
+	id = CAN_flavour.1
+	title = CAN_flavour.1.t
+	desc = CAN.flavour.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CAN_flavour.1.a
+	}
+} 

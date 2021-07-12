@@ -1,0 +1,45 @@
+﻿capital = 335 #Jakarta
+
+oob = "INS_1936"
+
+set_research_slots = 2
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_destroyer = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+
+set_convoys = 0
+set_popularities = {
+	authoritarian_democracy = 67
+	marxism_leninism = 28
+	social_liberalism = 3
+	fascism = 2
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Sukarno"
+	desc = "POLITICS_SUKARNO_DESC"
+	picture = "gfx/leaders/INS/Portrait_INS_Sukarno.png"
+	expire = "1990.1.1"
+	ideology = authdem
+	traits = {
+		
+	}
+}
+

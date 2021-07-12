@@ -1,0 +1,30 @@
+﻿capital = 527 #Pyongyang
+
+oob = "DPK_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = marxism_leninism
+	last_election = "1948.8.25"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 35
+	fascism = 25
+	marxism_leninism = 30
+	neutrality = 10
+}
+
+
+create_country_leader = {
+	name = "Kim Il-sung"
+	desc = "POLITICS_KIM_IL_SUNG_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

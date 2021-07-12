@@ -1,0 +1,32 @@
+﻿capital = 47
+
+set_research_slots = 3
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = market_socialism
+	last_election = "1935.6.9"
+	election_frequency = 7
+	elections_allowed = yes # none after offset 1
+}
+set_popularities = {
+	market_socialism = 79
+	marxism_leninism = 16
+	libertarian_socialism = 5
+}
+
+set_stability = 0.72
+set_war_support = 0.23
+set_convoys = 80
+
+create_country_leader = {
+	name = "Markos Vafeiadis"
+	desc = "POLITICS_MARKOS_VAFEIADIS_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Markos_Vafeiadis.png"
+	expire = "1965.1.1"
+	ideology = management_socialism
+	traits = {
+		#
+	}
+}

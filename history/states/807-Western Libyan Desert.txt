@@ -1,0 +1,14 @@
+state={
+	id=807
+	name="STATE_807"
+	state_category = wasteland
+	history = {
+		owner = ITA
+		add_core_of = ITA
+	}
+	provinces={
+		5004 10884 12022 12082 
+	}
+	manpower=2453
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+﻿focus_tree = {
+	id = MEX_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+	}
+	default = no
+	shared_focus = MEX_the_perfect_dictatorship
+}

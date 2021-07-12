@@ -1,0 +1,55 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_USA_golden_age_of_capitalism"
+		texturefile = "gfx/interface/ideas/USA_golden_age_of_capitalism.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_adenauers_reforms"
+		texturefile = "gfx/interface/ideas/GER_adenauers_reforms.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_denazification"
+		texturefile = "gfx/interface/ideas/GER_denazification.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_leader_of_the_free_world"
+		texturefile = "gfx/interface/ideas/USA_leader_of_the_free_world.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_the_great_red_scare"
+		texturefile = "gfx/interface/ideas/USA_red_scare.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_the_green_revolution"
+		texturefile = "gfx/interface/ideas/USA_green_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_cia_protection"
+		texturefile = "gfx/interface/ideas/USA_cia_protection.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_jim_crow_laws"
+		texturefile = "gfx/interface/ideas/USA_jim_crow.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_divided_politics"
+		texturefile = "gfx/interface/ideas/FRA_divided_politics.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_fading_imperialism"
+		texturefile = "gfx/interface/ideas/FRA_fading_imperialism.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_german_devastation"
+		texturefile = "gfx/interface/ideas/German_Statelets/german_devastation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_all_or_nothing"
+		texturefile = "gfx/interface/ideas/German_Statelets/all_or_nothing.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_illegitimate_state"
+		texturefile = "gfx/interface/ideas/German_Statelets/illegitimate_state.png"
+	}
+}

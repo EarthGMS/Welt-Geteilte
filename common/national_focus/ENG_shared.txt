@@ -1,0 +1,444 @@
+﻿## Starting Focus Tree ##
+
+shared_focus = {
+	id = ENG_the_last_days_of_the_british_empire
+	icon = GFX_ENG_the_last_days_of_the_british_empire
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 0
+	completion_reward = {
+		country_event = {
+			id = ENG_flavour.1
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = ENG_passing_the_torch
+	icon = GFX_ENG_passing_the_torch
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 4
+	y = 1
+	prerequisite = { focus = ENG_the_last_days_of_the_british_empire }
+	completion_reward = {
+		add_political_power = 10
+		USA = {
+			country_event = {
+				id = USA_diplomatic.1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ENG_the_sun_is_setting
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 6
+	y = 1
+	prerequisite = { focus = ENG_the_last_days_of_the_british_empire }
+	completion_reward = {
+		# Removes national spirit 'Bitter Imperialism' - needs to be added first
+		}
+}
+
+shared_focus = {
+	id = ENG_the_decolonisation_issue
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 2
+	prerequisite = { focus = ENG_passing_the_torch }
+	prerequisite = { focus = ENG_the_sun_is_setting }
+	completion_reward = {
+		country_event = {
+			id = normal_events_ENG.2
+		}
+		}
+}
+
+shared_focus = {
+	id = ENG_britain_stands_strong
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 2
+	y = 3
+	prerequisite = { focus = ENG_the_decolonisation_issue }
+	mutually_exclusive = { focus = ENG_accepting_our_fate }
+	completion_reward = {
+		#it will add a national spirit called "The Defiant Empire"
+		}
+}
+
+shared_focus = {
+	id = ENG_accepting_our_fate
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 8
+	y = 3
+	prerequisite = { focus = ENG_the_decolonisation_issue }
+	mutually_exclusive = { focus = ENG_britain_stands_strong }
+	completion_reward = {
+		add_stability = 0.1
+		}
+}
+
+shared_focus = {
+	id = ENG_apologize_to_india
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 6
+	y = 4
+	prerequisite = { focus = ENG_accepting_our_fate }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_fostering_a_positive_legacy
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 6
+	y = 5
+	prerequisite = { focus = ENG_apologize_to_india }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_freedom_for_malaya
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 6
+	y = 6
+	prerequisite = { focus = ENG_fostering_a_positive_legacy }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_present_it_to_the_americans
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 8
+	y = 4
+	prerequisite = { focus = ENG_accepting_our_fate }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_agreement_for_africa
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 8
+	y = 5
+	prerequisite = { focus = ENG_present_it_to_the_americans }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_oppose_revolutionary_movements
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 8
+	y = 6
+	prerequisite = { focus = ENG_agreement_for_africa }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_attlees_rally
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 10
+	y = 4
+	prerequisite = { focus = ENG_accepting_our_fate }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_counter_far_left
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 10
+	y = 5
+	prerequisite = { focus = ENG_attlees_rally }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_the_isles_first
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 10
+	y = 6
+	prerequisite = { focus = ENG_counter_far_left }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_send_aid_to_farouk
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 0
+	y = 4
+	prerequisite = { focus = ENG_britain_stands_strong }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_shatter_the_pan_african_dream
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 0
+	y = 5
+	prerequisite = { focus = ENG_send_aid_to_farouk }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_condemn_mau_mau_agitators
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 0
+	y = 6
+	prerequisite = { focus = ENG_shatter_the_pan_african_dream }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_decolonisation_is_communism
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 2
+	y = 4
+	prerequisite = { focus = ENG_britain_stands_strong }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_defend_the_federation_goverment
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 2
+	y = 5
+	prerequisite = { focus = ENG_decolonisation_is_communism }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_end_the_emergency
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 2
+	y = 6
+	prerequisite = { focus = ENG_defend_the_federation_goverment }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_concessions_where_necessary
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 4
+	y = 4
+	prerequisite = { focus = ENG_britain_stands_strong }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_end_support_for_west_australia
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 4
+	y = 5
+	prerequisite = { focus = ENG_concessions_where_necessary }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_focus_on_the_mainland
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 4
+	y = 6
+	prerequisite = { focus = ENG_end_support_for_west_australia }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_rule_britannia
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 2
+	y = 7
+	prerequisite = { focus = ENG_focus_on_the_mainland }
+	prerequisite = { focus = ENG_condemn_mau_mau_agitators }
+	prerequisite = { focus = ENG_end_the_emergency }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_a_bastion_of_freedom
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 8
+	y = 7
+	prerequisite = { focus = ENG_freedom_for_malaya }
+	prerequisite = { focus = ENG_oppose_revolutionary_movements }
+	prerequisite = { focus = ENG_the_isles_first }
+	completion_reward = {
+		add_political_power = 50
+		}
+}
+
+shared_focus = {
+	id = ENG_the_contradictions_resolved
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 8
+	prerequisite = { focus = ENG_rule_britannia focus = ENG_a_bastion_of_freedom }
+	completion_reward = {
+		}
+}
+
+shared_focus = {
+	id = ENG_there_will_always_be_an_england
+	icon = GFX_ENG_the_sun_is_setting
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 9
+	prerequisite = { focus = ENG_the_contradictions_resolved }
+	completion_reward = {
+		}
+}

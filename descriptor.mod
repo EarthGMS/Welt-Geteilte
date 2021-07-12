@@ -1,0 +1,16 @@
+version="1.0"
+tags={
+	"Alternative History"
+	"Map"
+	"National Focuses"
+	"Events"
+	"Gameplay"
+	"Ideologies"
+	"Graphics"
+	"Sound"
+}
+name = "Triumph of Liberty"
+supported_version = "1.10.7"
+replace_path = "gfx/interface/ideologies"
+replace_path = "gfx/loadingscreens"
+replace_path = "history/countries"

@@ -1,0 +1,13 @@
+state={
+	id=823
+	name="STATE_823"
+	history = {
+		owner = ENG
+		add_core_of = GHA
+	}
+	provinces={
+		12785 
+	}
+	manpower=123
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,311 @@
+﻿shared_focus = {
+	id = FRA_french_empire
+	icon = GFX_FRA_french_empire
+	x = 4
+	y = 1
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+# A French Alliance
+
+shared_focus = {
+	id = FRA_french_alliance
+	icon = GFX_FRA_french_alliance
+	x = 0
+	y = 1
+
+	relative_position_id = FRA_french_empire
+	prerequisite = { focus = FRA_french_empire }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_talk_with_iberia
+	icon = GFX_FRA_talk_with_iberia
+	x = -1
+	y = 1
+
+	relative_position_id = FRA_french_alliance
+	prerequisite = { focus = FRA_french_alliance }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_talk_with_italy
+	icon = GFX_FRA_talk_with_italy
+	x = 1
+	y = 1
+
+	relative_position_id = FRA_french_alliance
+	prerequisite = { focus = FRA_french_alliance }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+# A French System
+
+shared_focus = {
+	id = FRA_french_system
+	icon = GFX_FRA_french_system
+	x = -4
+	y = 1
+
+	relative_position_id = FRA_french_empire
+	prerequisite = { focus = FRA_french_empire }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_meet_with_reynaud
+	icon = GFX_FRA_meet_with_reynaud
+	x = -1
+	y = 1
+
+	relative_position_id = FRA_french_system
+	prerequisite = { focus = FRA_french_system }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+shared_focus = {
+	id = FRA_centralize_control
+	icon = GFX_FRA_centralize_control
+	x = 1
+	y = 1
+
+	relative_position_id = FRA_french_system
+	prerequisite = { focus = FRA_french_system }
+        
+    available = {
+	}
+	bypass = {
+
+	}
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+# A French People Tree
+
+shared_focus = {
+	id = FRA_french_people
+	icon = GFX_FRA_french_people
+	x = 4
+	y = 1
+        
+    available = {
+	}
+	bypass = {
+	}
+
+	relative_position_id = FRA_french_empire
+	prerequisite = { focus = FRA_french_empire }
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_stabilize_the_party
+	icon = GFX_FRA_stabilize_the_party
+	x = 1
+	y = 1
+        
+    available = {
+	}
+	bypass = {
+	}
+
+	relative_position_id = FRA_french_people
+	prerequisite = { focus = FRA_french_people }
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_promise_token_reforms
+	icon = GFX_FRA_promise_token_reforms
+	x = -1
+	y = 1
+        
+    available = {
+	}
+	bypass = {
+	}
+
+	relative_position_id = FRA_french_people
+	prerequisite = { focus = FRA_french_people }
+
+    cost = 5
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}
+
+shared_focus = {
+	id = FRA_truly_french_state
+	icon = GFX_FRA_truly_french_state
+	x = -1
+	y = 1
+        
+    available = {
+	}
+	bypass = {
+	}
+
+	relative_position_id = FRA_talk_with_italy
+
+
+	prerequisite = { focus = FRA_promise_token_reforms }
+	prerequisite = { focus = FRA_stabilize_the_party }
+	prerequisite = { focus = FRA_talk_with_italy }
+	prerequisite = { focus = FRA_talk_with_iberia  }
+	prerequisite = { focus = FRA_centralize_control }
+	prerequisite = { focus = FRA_meet_with_reynaud }
+
+    cost = 1
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+	}
+
+	ai_will_do = {
+	}
+}

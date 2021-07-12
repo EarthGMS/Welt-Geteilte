@@ -1,0 +1,67 @@
+﻿capital = 64
+
+oob = "GER_1936"
+
+set_fuel_ratio = 0.8
+
+set_politics = {
+	ruling_party = christian_democracy
+	last_election = "1949.8.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	christian_democracy = 31
+	democratic = 29
+	social_liberalism = 12
+	social_conservatism = 8
+	communism = 14
+	stalinism = 6
+}
+
+
+add_ideas = {
+	denazification
+	GER_adenauers_reforms
+}
+
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "gfx/leaders/GER/Portrait_GER_Konrad_Adenauer.dds"
+	expire = 2020.1.19
+	ideology = conservative_democracy
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Otto Wels"
+#	desc = "POLITICS_OTTO_WELS_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1939.1.16"
+#	ideology = socialism
+#	traits = {
+#		exiled
+#		union_man
+#	}
+#}
+#
+#create_country_leader = {
+#	name = "Ernst Thälmann"
+#	desc = "POLITICS_ERNST_THALMANN_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1956.1.1"
+#	ideology = stalinism
+#	traits = {
+#		assassination_survivor
+#		stalins_puppet
+#		political_prisoner
+#	}
+#}
+
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}

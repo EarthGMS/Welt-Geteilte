@@ -1,0 +1,21 @@
+on_actions = {
+
+	# mod 
+	on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1952.1.2
+					NOT = {
+						has_global_flag = cancel_event_TOL
+					}
+				}
+
+				ALB = {
+					country_event = { id = albania_flavour.1 days = 72 }
+				}
+			}
+		}
+	}
+}

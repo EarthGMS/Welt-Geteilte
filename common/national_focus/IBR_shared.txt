@@ -1,0 +1,397 @@
+﻿	shared_focus = {
+		id = IBR_to_unite_a_peninsula
+		icon = GFX_IBR_to_unite_a_peninsula
+		x = 10
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_the_eclipse_of_estado_novo
+		icon = GFX_IBR_the_eclipse_of_estado_novo
+		x = -4
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_to_unite_a_peninsula
+		prerequisite = { focus = IBR_to_unite_a_peninsula }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			stability_factor = 0.1
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_demonize_delgado
+		icon = GFX_IBR_demonize_delgado
+		x = 2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_the_eclipse_of_estado_novo
+		prerequisite = { focus = IBR_the_eclipse_of_estado_novo }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_send_in_the_national_guard
+		icon = GFX_IBR_send_in_the_national_guard
+		x = 0
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_demonize_delgado
+		prerequisite = { focus = IBR_demonize_delgado }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_sideline_navarro
+		icon = GFX_IBR_sideline_navarro
+		x = -2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_the_eclipse_of_estado_novo
+		prerequisite = { focus = IBR_the_eclipse_of_estado_novo }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#reduce navarro influence
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_reverse_francoist_policies
+		icon = GFX_IBR_reverse_francoist_policies
+		x = 0
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_sideline_navarro
+		prerequisite = { focus = IBR_sideline_navarro }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_the_state_secured
+		icon = GFX_IBR_the_state_secured
+		x = 2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_reverse_francoist_policies
+		prerequisite = { focus = IBR_reverse_francoist_policies }
+		prerequisite = { focus = IBR_send_in_the_national_guard }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.075
+			}
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_the_fading_empire
+		icon = GFX_IBR_the_fading_empire
+		x = 4
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_to_unite_a_peninsula
+		prerequisite = { focus = IBR_to_unite_a_peninsula }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_subsidize_goan_bauxite_mining
+		icon = GFX_IBR_subsidize_goan_bauxite_mining
+		x = -2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_the_fading_empire
+		prerequisite = { focus = IBR_the_fading_empire }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_recognize_india
+		icon = GFX_IBR_recognize_india
+		x = 0
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_subsidize_goan_bauxite_mining
+		prerequisite = { focus = IBR_subsidize_goan_bauxite_mining }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_invest_in_sahara
+		icon = GFX_IBR_invest_in_sahara
+		x = 2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_the_fading_empire
+		prerequisite = { focus = IBR_the_fading_empire }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_the_gibraltar_convention
+		icon = GFX_IBR_the_gibraltar_convention
+		x = 0
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_invest_in_sahara
+		prerequisite = { focus = IBR_invest_in_sahara }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_salazar_men
+		icon = GFX_IBR_the_state_secured
+		x = 2
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_recognize_india
+		prerequisite = { focus = IBR_recognize_india }
+		prerequisite = { focus = IBR_the_gibraltar_convention }
+
+        cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	shared_focus = {
+		id = IBR_survival_first
+		icon = GFX_IBR_survival_first
+		x = 4
+		y = 1
+        
+        available = {
+		}
+		bypass = {
+
+		}
+
+		relative_position_id = IBR_the_state_secured
+		prerequisite = { focus = IBR_the_state_secured }
+		prerequisite = { focus = IBR_salazar_men }
+
+        cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+		}
+	}

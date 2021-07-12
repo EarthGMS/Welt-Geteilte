@@ -1,0 +1,84 @@
+
+bitmapfonts = {
+# The fonts defined here are (so far) not color-defined. This will need to be fixed, but can work for now as we continue on
+# the mod. Remove this when the font modding has been adapted for mod progress.
+
+	bitmapfont = {
+		name = "aldrich_12_outline"
+		path = "gfx/fonts/aldrich_12_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_14_outline"
+		path = "gfx/fonts/aldrich_14_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_16_outline"
+		path = "gfx/fonts/aldrich_16_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_18_outline"
+		path = "gfx/fonts/aldrich_18_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_20_outline"
+		path = "gfx/fonts/aldrich_20_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_22_outline"
+		path = "gfx/fonts/aldrich_22_outline"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "aldrich_24_outline"
+		path = "gfx/fonts/aldrich_24_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_28_outline"
+		path = "gfx/fonts/aldrich_28_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_30_outline"
+		path = "gfx/fonts/aldrich_30_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_32_outline"
+		path = "gfx/fonts/aldrich_32_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_36_outline"
+		path = "gfx/fonts/aldrich_36_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_36_outline"
+		path = "gfx/fonts/aldrich_36_outline"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "aldrich_36_outline"
+		path = "gfx/fonts/aldrich_36_outline"
+		color = 0xffffffff
+	}
+	#
+}

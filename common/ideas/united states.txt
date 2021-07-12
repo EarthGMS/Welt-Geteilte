@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+		USA_jim_crow_laws = {
+			
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+ 
+            cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.4
+			}
+		}
+		USA_the_green_revolution = {
+			
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				monthly_population = 0.05
+			}
+		}
+		USA_leader_of_the_free_world = {
+						
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				army_defence_factor = 0.15
+			}
+		}
+		USA_the_great_red_scare = {
+			picture = USA_the_great_red_scare
+			
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.025
+			}
+		}
+		USA_cia_protection = {
+			
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+				intel_network_gain_factor = 0.05
+			}
+		}
+		USA_golden_age_of_capitalism = {
+			picture = USA_golden_age_of_capitalism
+			
+			allowed = { 
+			    original_tag = USA
+			}
+
+            available = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+    }
+}

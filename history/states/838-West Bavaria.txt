@@ -1,0 +1,22 @@
+state={
+	id=838
+	name="STATE_838"
+	state_category = town
+	provinces={
+		708 3705 6540 6693 11620 
+	}
+		history={
+		owner = WBA
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = WBA
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

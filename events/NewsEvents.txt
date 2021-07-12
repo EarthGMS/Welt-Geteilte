@@ -1,0 +1,16 @@
+﻿add_namespace = cursed
+country_event = {
+	id = cursed.1
+	title = cursed.1.t
+	desc = cursed.1.d
+	picture = GFX_report_event_the_marshals_end
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = cursed.1.a
+
+	}
+}

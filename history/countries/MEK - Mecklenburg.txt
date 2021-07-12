@@ -1,0 +1,37 @@
+﻿capital = 61
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.75
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+set_popularities = {
+	despotism = 70
+	conservative_democracy = 10
+	social_liberalism = 10
+	social_democracy = 10
+}
+
+add_ideas = {
+	german_devastation
+	all_or_nothing
+	illegitimate_state
+}
+
+create_country_leader = {
+	name = "Louis Ferdinand"
+	desc = "POLITICS_LOUIS_FERDINAND_DESC"
+	picture = "gfx/leaders/MEK/Portrait_MEK_Louis_Ferdinand.png"
+	expire = "1967.1.1"
+	ideology = despotism_ideology
+	traits = {
+
+	}
+}
+

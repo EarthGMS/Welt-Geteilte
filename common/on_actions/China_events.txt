@@ -1,0 +1,26 @@
+on_actions = {
+
+	# mod 
+	on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1952.1.12
+					NOT = {
+						has_global_flag = cancel_event_TOL
+					}
+				}
+
+				CHI = {
+					country_event = { id = CHI_flavour.1 days = 18 }
+					country_event = { id = CHI_flavour.3 days = 26 }
+					country_event = { id = CHI_flavour.4 days = 7 }
+					country_event = { id = CHI_flavour.5 days = 42 }
+					country_event = { id = CHI_flavour.6 days = 61 }
+					country_event = { id = CHI_flavour.7 days = 21 }
+				}
+			}
+		}
+	}
+}

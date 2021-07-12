@@ -1,0 +1,113 @@
+ideas = {
+
+	head_of_government = {
+
+		jacques_soustelle = {
+			
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_government = authoritarian_democracy
+			}
+
+			traits = {
+				conservative_nationalist
+			}
+		}
+	}
+
+	minister_of_interior = {
+
+		léon_martinaud-déplat = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_government = authoritarian_democracy
+			}
+
+			traits = {
+				#
+			}
+		}
+	}
+
+	minister_of_economy = {
+
+		jacques_chaban-delmas = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_government = authoritarian_democracy
+			}
+
+			traits = {
+				#
+			}
+		}
+	}
+
+
+	country = {
+		fading_imperialism = { #remember, use "_" between it or the idea isn't work
+			picture = FRA_fading_imperialism
+
+			
+			allowed = { 
+			    tag = FRA
+			}
+
+            available = { 
+			}
+ 
+             cancel = { 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			
+			modifier = {
+			stability_factor = -0.05
+			local_non_core_manpower = -0.05
+			attack_bonus_against_cores = -0.05
+			}
+		}
+		
+		wartime_destruction = {
+			picture = gfx/interface/ideas/FRA_wartime_destruction.png #missing icon
+			
+			allowed = { 
+			    tag = FRA
+			}
+			
+			modifier = {
+			stability_factor = -0.1
+			industrial_capacity_factory = -0.1
+			production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		divided_politics = {
+			picture = FRA_divided_politics
+			
+			allowed = { 
+			    tag = FRA
+			}
+			
+			modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.2
+			}
+		}
+    }	
+}

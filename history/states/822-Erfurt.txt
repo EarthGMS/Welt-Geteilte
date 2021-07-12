@@ -1,0 +1,23 @@
+state={
+	id=822
+	name="STATE_822"
+	state_category = town
+	resources={
+		steel=4 # was: 20
+		chromium = 1 # was: 4
+		tungsten = 1 # was: 4
+	}
+	provinces={
+		482 3474 13116 
+	}
+	manpower=1080625
+	buildings_max_level_factor=1.000
+	history={
+		owner = EFT
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = EFT
+	}
+}

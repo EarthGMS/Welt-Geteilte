@@ -1,0 +1,43 @@
+capital = #
+
+set_stability = 0.3
+set_war_support = 0.6
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	libertarian_socialism = 100
+}
+
+create_country_leader = {
+	name = "Yevhen Hrytsyak"
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders/NIK/Portrait_NIK_Yevhen_Hrytsyak.png"
+	expire = "1965.1.1"
+	ideology = libsoc
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Boris Shamaev"
+	gfx = "GFX_Portrait_NIK_Boris_Shamaev"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

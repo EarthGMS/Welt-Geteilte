@@ -1,0 +1,30 @@
+﻿capital = 822
+
+OOB = "CFR_1952"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1949.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	german_devastation
+	all_or_nothing
+	illegitimate_state
+}
+
+set_popularities = {
+	authoritarian_democracy = 70 # administration
+	conservative_democracy = 20 # johannes hoffmann
+	despotism = 10 # french military
+}
+
+set_convoys = 2
+

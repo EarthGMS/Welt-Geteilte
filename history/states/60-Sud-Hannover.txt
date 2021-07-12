@@ -1,0 +1,34 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 1080625
+	resources={
+		steel=3 # was: 20
+		chromium = 1 # was: 4
+		tungsten = 1 # was: 4
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = WEI
+		victory_points = { 3561 5 }
+		victory_points = { 425 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = WEI
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 1
+				arms_factory = 1
+			}
+		}
+	}
+
+	provinces={
+		425 3561 6524 
+	}
+}
