@@ -77,16 +77,16 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian_democracy
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	authoritarian_democracy = 70
+	social_liberalism = 25
+	social_democracy = 5
 }
 
 1939.1.1 = {
@@ -108,12 +108,21 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders/BEL/Portrait_BEL_Leopold_III.png"
+	expire = 1952.1.15
+	ideology = authdem
+}
+
+create_country_leader = {
 	name = "Joseph Pholien"
 	desc = "POLITICS_JOSEPH_PHOLIEN_DESC"
 	picture = "gfx/leaders/BEL/Portrait_BEL_Joseph_Pholien.dds"
 	expire = 1952.1.15
 	ideology = christian_democracy_ideology
 }
+
 
 create_corps_commander = {
 	name = "M.C.L. Keyaerts"
