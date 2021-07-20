@@ -9,6 +9,7 @@ set_war_support = 0.7
 # flags
 set_global_flag = USSR_bukharin_kamenev
 
+load_focus_tree = SOV_start
 
 set_convoys = 50
 
