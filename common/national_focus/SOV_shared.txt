@@ -1,0 +1,313 @@
+﻿## Starting Focus Tree ##
+
+shared_focus = {
+	id = SOV_its_just_a_burning_memory
+	icon = GFX_SOV_its_just_a_burning_memory
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 0
+	completion_reward = {
+		add_political_power = 75
+	}
+}
+
+shared_focus = {
+	id = SOV_quiet_internal_rebellions
+	icon = GFX_SOV_quiet_internal_rebellions
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 1
+	prerequisite = { focus = SOV_its_just_a_burning_memory }
+	completion_reward = {
+		add_popularity = {
+    		ideology = market_socialism
+    		popularity = 0.05
+		}
+		add_popularity = {
+    		ideology = marxism_leninism
+    		popularity = 0.05
+		}
+		add_popularity = {
+    		ideology = vanguardism
+    		popularity = 0.05
+		}
+		add_popularity = {
+    		ideology = libertarian_socialism
+    		popularity = 0.05
+		}
+		SOV = {
+			country_event = {
+				id = SOV_event1 #Bringing Up The Succession Question
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_late_afternoon_drifting
+	icon = GFX_SOV_late_afternoon_drifting
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 3
+	y = 1
+	prerequisite = { focus = SOV_its_just_a_burning_memory }
+	completion_reward = {
+		add_tech_bonus = {
+    		bonus = 1
+    		uses = 1
+    		category = armor
+		}
+		army_experience = 10
+	}
+}
+
+shared_focus = {
+	id = SOV_we_dont_have_many_days
+	icon = GFX_SOV_we_dont_have_many_days
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 7
+	y = 1
+	prerequisite = { focus = SOV_its_just_a_burning_memory }
+	completion_reward = {
+			add_offsite_building = { type = infrastructure level = 5 } #15 is a bit OP
+		}
+}
+
+shared_focus = {
+	id = SOV_a_losing_battle_is_raging
+	icon = GFX_SOV_a_losing_battle_is_raging
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 3
+	y = 2
+	prerequisite = { focus = SOV_late_afternoon_drifting }
+	completion_reward = {
+		add_offsite_building = { type = arms_factory level = 3 }
+		add_tech_bonus = {
+    		bonus = 1
+    		uses = 1
+    		category = land_doctrine
+		}
+		SOV = {
+			country_event = {
+				id = SOV_event2 #New Generation Factories
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_the_way_ahead_feels_lonely
+	icon = GFX_SOV_the_way_ahead_feels_lonely
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 2
+	prerequisite = { focus = SOV_quiet_internal_rebellions }
+	completion_reward = {
+		add_opinion_modifier = {
+    		target = YUG
+    		modifier = soviet_repapprochment
+		}
+		add_opinion_modifier = {
+    		target = GRE
+    		modifier = soviet_repapprochment
+		}
+		add_opinion_modifier = {
+    		target = HUN
+    		modifier = soviet_repapprochment
+		}
+		add_opinion_modifier = {
+    		target = CZE
+    		modifier = soviet_repapprochment
+		}
+		add_opinion_modifier = {
+    		target = BUL
+    		modifier = soviet_repapprochment
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_glimpes_of_hope_in_trying_times
+	icon = GFX_SOV_glimpes_of_hope_in_trying_times
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 7
+	y = 2
+	prerequisite = { focus = SOV_we_dont_have_many_days }
+	completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 4 }
+		SOV = {
+			country_event = {
+				id = SOV_event3 #Six Year Plan Done
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_hidden_sea_buried_deep
+	icon = GFX_SOV_hidden_sea_buried_deep
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 3
+	y = 3
+	prerequisite = { focus = SOV_a_losing_battle_is_raging }
+	completion_reward = {
+		add_offsite_building = { type = dockyard level = 3 }
+		add_tech_bonus = {
+    		bonus = 1
+    		uses = 1
+    		category = naval_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_mournful_camarderie
+	icon = GFX_SOV_mournful_camarderie
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 3
+	prerequisite = { focus = SOV_the_way_ahead_feels_lonely }
+	completion_reward = {
+		add_political_power = 100
+		add_stability = 0.1
+		SOV = {
+			country_event = {
+				id = SOV_event4 #Kamenev Successor
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_aching_without_lucidity
+	icon = GFX_SOV_aching_without_lucidity
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 7
+	y = 3
+	prerequisite = { focus = SOV_glimpes_of_hope_in_trying_times }
+	completion_reward = {
+		#will give national spirit Post-Plan Boom
+	}
+}
+
+shared_focus = {
+	id = SOV_post_awareness_confusions
+	icon = GFX_SOV_aching_without_lucidity
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 3
+	y = 4
+	prerequisite = { focus = SOV_hidden_sea_buried_deep }
+	completion_reward = {
+		add_research_slot = 1
+		air_experience = 25
+		SOV = {
+			country_event = {
+				id = SOV_event5 #Cosmondrome Project
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_advanced_plaque_entanglements
+	icon = GFX_SOV_advanced_plaque_entanglements
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 4
+	prerequisite = { focus = SOV_mournful_camarderie }
+	completion_reward = {
+		# Gives 2 offmap civs to Rom, Pol, Fin, Mon and Man
+	}
+}
+
+shared_focus = {
+	id = SOV_synapse_retrogenesis
+	icon = GFX_SOV_advanced_plaque_entanglements
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 7
+	y = 4
+	prerequisite = { focus = SOV_aching_without_lucidity }
+	completion_reward = {
+		SOV = {
+			country_event = {
+				#post plan boom is extended 90 days - yet to be added
+				id = SOV_event6 #The Soviet Dream
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_synapse_retrogenesis
+	icon = GFX_SOV_advanced_plaque_entanglements
+	cost = 2.00
+	available_if_capitulated = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 5
+	y = 5
+	prerequisite = { focus = SOV_advanced_plaque_entanglements }
+	prerequisite = { focus = SOV_post_awareness_confusions }
+	prerequisite = { focus = SOV_synapse_retrogenesis }
+	completion_reward = {
+		SOV = {
+			country_event = {
+				id = SOV_event7 #Death of Kamenev
+			}
+		}
+	}
+}
+
+
