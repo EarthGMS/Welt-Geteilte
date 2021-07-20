@@ -14,14 +14,16 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = social_liberalism
 	last_election = "1949.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	social_liberalism = 74
+	conservative_democracy = 18
+	social_democracy = 19
 }
 
 set_convoys = 5
