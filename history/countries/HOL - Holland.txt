@@ -181,9 +181,9 @@ if = {
 	create_country_leader = {
 		name = "Willem Drees"
 		desc = "POLITICS_WILLEM_DREES_DESC"
-		picture = "gfx/leaders/HOL/Portrait_HOL_Willem_Drees.dds"
+		picture = "gfx/leaders/HOL/Portrait_HOL_Willem_Drees.png"
 		expire = 1958.12.22
-		ideology = socdem		
+		ideology = social_liberal_ideology		
 		traits = {
 			#
 		}
@@ -191,15 +191,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_liberalism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	social_liberalism = 93
+	authoritarian_democracy = 7
+	
 }
 
 set_convoys = 150
