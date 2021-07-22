@@ -28,3 +28,10 @@ set_popularities = {
 
 set_convoys = 5
 
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "gfx/leaders/GER/Portrait_GER_Konrad_Adenauer.dds"
+	expire = 1952.1.15
+	ideology = liberal_conservatism
+}
