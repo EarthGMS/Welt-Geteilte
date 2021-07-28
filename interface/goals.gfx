@@ -2360,4 +2360,76 @@ spriteTypes = {
 		name = "GFX_focus_MEX_the_perfect_dictatorship"
 		texturefile = "gfx/interface/goals/MEX/MEX_the_perfect_dictatorship.dds"
 	}
+
+	######USSR 1######
+
+	SpriteType = { 
+		name = "GFX_SOV_it_just_a_burning_memory"
+		texturefile = "gfx/interface/goals/SOV/SOV_it_just_a_burning_memory.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_quiet_internal_rebellions"
+		texturefile = "gfx/interface/goals/SOV/SOV_quiet_internal_rebellions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_the_way_ahead_feels_lonely"
+		texturefile = "gfx/interface/goals/SOV/SOV_the_way_ahead_feels_lonely.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_mournful_camaraderie"
+		texturefile = "gfx/interface/goals/SOV/SOV_mournful_camaraderie.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_advanced_plaque_entanglements"
+		texturefile = "gfx/interface/goals/SOV/SOV_advanced_plaque_entanglements.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_late_afternoon_drifting"
+		texturefile = "gfx/interface/goals/SOV/SOV_late_afternoon_drifting.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_a_losing_battle_is_raging"
+		texturefile = "gfx/interface/goals/SOV/SOV_a_losing_battle_is_raging.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_hidden_sea_buried_deep"
+		texturefile = "gfx/interface/goals/SOV/SOV_hidden_sea_buried_deep.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_post_SOV_awareness_confusions"
+		texturefile = "gfx/interface/goals/SOV/SOV_post_awareness_confusions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_we_dont_have_many_days"
+		texturefile = "gfx/interface/goals/SOV/SOV_we_dont_have_many_days.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_glimpses_of_hope_in_trying_times"
+		texturefile = "gfx/interface/goals/SOV/SOV_glimpses_of_hope_in_trying_times.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_aching_cavern_without_lucidity"
+		texturefile = "gfx/interface/goals/SOV/SOV_aching_cavern_without_lucidity.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_synapse_retrogenesis"
+		texturefile = "gfx/interface/goals/SOV/SOV_synapse_retrogenesis.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_SOV_place_in_the_world_fades_away"
+		texturefile = "gfx/interface/goals/SOV/SOV_place_in_the_world_fades_away.dds"
+	}
 }
