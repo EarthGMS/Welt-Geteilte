@@ -2364,7 +2364,7 @@ spriteTypes = {
 	######USSR 1######
 
 	SpriteType = { 
-		name = "GFX_SOV_it_just_a_burning_memory"
+		name = "GFX_SOV_its_just_a_burning_memory"
 		texturefile = "gfx/interface/goals/SOV/SOV_it_just_a_burning_memory.dds"
 	}
 
@@ -2379,7 +2379,7 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_SOV_mournful_camaraderie"
+		name = "GFX_SOV_mournful_camarderie"
 		texturefile = "gfx/interface/goals/SOV/SOV_mournful_camaraderie.dds"
 	}
 
@@ -2414,12 +2414,12 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_SOV_glimpses_of_hope_in_trying_times"
+		name = "GFX_SOV_glimpes_of_hope_in_trying_times"
 		texturefile = "gfx/interface/goals/SOV/SOV_glimpses_of_hope_in_trying_times.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_SOV_aching_cavern_without_lucidity"
+		name = "GFX_SOV_aching_without_lucidity"
 		texturefile = "gfx/interface/goals/SOV/SOV_aching_cavern_without_lucidity.dds"
 	}
 
