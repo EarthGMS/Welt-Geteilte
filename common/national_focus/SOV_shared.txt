@@ -231,7 +231,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SOV_post_awareness_confusions
-	icon = GFX_SOV_aching_without_lucidity
+	icon = GFX_post_SOV_awareness_confusions
 	cost = 2.00
 	available_if_capitulated = no
 	ai_will_do = {
@@ -269,7 +269,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SOV_synapse_retrogenesis
-	icon = GFX_SOV_advanced_plaque_entanglements
+	icon = GFX_SOV_synapse_retrogenesis
 	cost = 2.00
 	available_if_capitulated = no
 	ai_will_do = {
@@ -289,8 +289,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = SOV_synapse_retrogenesis
-	icon = GFX_SOV_advanced_plaque_entanglements
+	id = SOV_place_in_the_world_fades_away
+	icon = GFX_SOV_place_in_the_world_fades_away
 	cost = 2.00
 	available_if_capitulated = no
 	ai_will_do = {
