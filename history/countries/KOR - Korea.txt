@@ -11,17 +11,16 @@ set_technology = {
 set_convoys = 35
 
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = social_democracy
 	last_election = "1952.8.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	authoritarian_democracy = 12
-	democratic = 6
-	social_liberalism = 3
-	social_conservatism = 77
-    libertarian_socialism = 2
+	conservative_democracy = 6
+	social_liberalism = 5
+	social_democracy = 77
 }
 
 create_country_leader = {
@@ -29,7 +28,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_KOR_Syngman_Rhee.png"
 	expire = "1965.1.1"
-	ideology = social_conservatism_ideology
+	ideology = social_democracy_ideology
 	traits = {
 		#
 	}
