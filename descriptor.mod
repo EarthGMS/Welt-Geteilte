@@ -10,7 +10,7 @@ tags={
 	"Sound"
 }
 name = "Triumph of Liberty"
-supported_version = "1.10.7"
+supported_version = "1.10.8"
 replace_path = "gfx/interface/ideologies"
 replace_path = "gfx/loadingscreens"
 replace_path = "history/countries"
