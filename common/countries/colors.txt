@@ -3,6 +3,10 @@ IBR = {
 	color = rgb { 255  169  0 }
 	color_ui = rgb { 255  169  0 }
 }
+LEV = {
+	color = rgb { 0  74  127 }
+	color_ui = rgb { 0  74  127 }
+}
 CJA = {
 	color = rgb { 255 112 56 }
 	color_ui = rgb { 255 112 56 }
