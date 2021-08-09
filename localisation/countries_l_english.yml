@@ -8,6 +8,9 @@
  SAT_social_liberalism_DEF:0 "Reynaudist Saxony-Anhalt"
  SAT_ADJ:0 "Saxon"
 
+ LEV_authoritarian_democracy:0 "Levant"
+ LEV_authoritarian_democracy_DEF:0 "Levant"
+ LEV_ADJ:0 "Levantese"
 
  IBR_authoritarian_democracy:0 "Iberian Federation"
  IBR_authoritarian_democracy_DEF:0 "the Iberian Federation"
