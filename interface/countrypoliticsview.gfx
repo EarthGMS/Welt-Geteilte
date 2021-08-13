@@ -438,14 +438,13 @@ spriteTypes = {
 	## Ideologies ##################################################################
 
 	spriteType = { # Despotism
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
 	}	
 	
-	#Marxism-Leninism
-	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	spriteType = { # Marxism-Leninism
+		name = "GFX_ideology_marxism_leninism_group"
+		texturefile = "gfx/interface/ideologies/marxism_leninism_group.dds"
 	}
 	
 	spriteType = { #Ultranationalism
@@ -453,9 +452,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/fascism_group.dds"
 	}
 	
-	spriteType = { # Social Democracy
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/socdem_group.dds"
+	spriteType = { # Progressive Nationalism
+		name = "GFX_ideology_progressive_nationalism_group"
+		texturefile = "gfx/interface/ideologies/progressive_nationalism_group.dds"
 	}
 
 	spriteType = { # Social Liberalism
@@ -463,14 +462,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/soclib_group.dds"
 	}
 
-	spriteType = { # Stalinism
-		name = "GFX_ideology_stalinism_group"
-		texturefile = "gfx/interface/ideologies/stalinism_group.dds"
+	spriteType = { # Market Socialism
+		name = "GFX_ideology_market_socialism_group"
+		texturefile = "gfx/interface/ideologies/market_socialism_group.dds"
 	}
 
-	spriteType = { # Christian Democracy
-		name = "GFX_ideology_christian_democracy_group"
-		texturefile = "gfx/interface/ideologies/christdem_group.dds"
+	spriteType = { # Libertarian Socialism
+		name = "GFX_ideology_libertarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/libertarian_socialism_group.dds"
 	}
 
 	spriteType = { # Authoritarian Democracy
@@ -478,6 +477,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/authdem_group.dds"
 	}
 
+	spriteType = { # Conservative Democracy
+		name = "GFX_ideology_conservative_democracy_group"
+		texturefile = "gfx/interface/ideologies/conservative_democracy_group.dds"
+	}
+
+	spriteType = { # Social Democracy
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+	}
+
+	spriteType = { # Classical Liberalism
+		name = "GFX_ideology_classical_liberalism_group"
+		texturefile = "gfx/interface/ideologies/classical_liberalism_group.dds"
+	}
 
 	################################################################################
 
