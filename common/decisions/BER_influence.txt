@@ -1,0 +1,27 @@
+BER_influence = {
+	summary = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+            check_variable = {
+				var = global.BER_voting_open
+				value = 1
+				compare = equals
+			}
+		}
+
+		cost = 0
+
+		complete_effect = {
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

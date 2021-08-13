@@ -1,0 +1,29 @@
+on_actions = {
+
+	# mod 
+	on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					has_start_date < 1952.1.2
+					NOT = {
+						has_global_flag = cancel_event_TOL
+					}
+				}
+
+				BER = {
+					country_event = { id = BER_influence.1 days = 1 }
+				}
+
+                BDG = {
+					country_event = { id = BER_influence.1 days = 1 }
+				}
+
+                SAX = {
+					country_event = { id = BER_influence.1 days = 1 }
+				}
+			}
+		}
+	}
+}

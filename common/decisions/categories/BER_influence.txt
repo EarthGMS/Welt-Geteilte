@@ -1,0 +1,19 @@
+BER_influence = {
+	icon = gfx/tutorial/tutorial_icon.png
+	allowed = {
+        AND = {
+            BER = {
+                #NOT = has completion flag
+                controls_state = 837
+                is_puppet = no
+            }
+		    OR = {
+                original_tag = SAX
+                original_tag = BDG
+                original_tag = BER
+            }
+        }
+	}
+	visible = {
+	}
+}

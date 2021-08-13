@@ -1,0 +1,67 @@
+add_namespace = BER_influence
+country_event = { # Influence Summary
+	id = BER_influence.1
+	title = BER_influence.1.t
+	desc = BER_influence.1.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_variable = {global.SAX_influence = 0.30}
+		set_variable = {global.BDG_influence = 0.30}
+		set_variable = {global.BER_influence = 0.15}
+		set_variable = {global.socdem_influence = 0.15}
+		set_variable = {global.nat_influence = 0.10}
+		set_variable = {global.BER_voting_open = 1}
+		add_to_array = {
+			array = BER_vote
+			value = global.SAX_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.BDG_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.BER_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.socdem_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.nat_influence
+		}
+
+	}
+
+	option = {
+		name = BER_influence.1.a
+		set_variable = {global.SAX_influence = 0.30}
+		set_variable = {global.BDG_influence = 0.30}
+		set_variable = {global.BER_influence = 0.15}
+		set_variable = {global.socdem_influence = 0.15}
+		set_variable = {global.nat_influence = 0.10}
+		add_to_array = {
+			array = BER_vote
+			value = global.SAX_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.BDG_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.BER_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.socdem_influence
+		}
+		add_to_array = {
+			array = BER_vote
+			value = global.nat_influence
+		}
+	}
+} 
