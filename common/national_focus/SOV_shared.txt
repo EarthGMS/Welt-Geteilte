@@ -45,7 +45,7 @@ shared_focus = {
 		}
 		SOV = {
 			country_event = {
-				id = SOV_event1 #Bringing Up The Succession Question
+				id = SOV_focus.1 #Bringing Up The Succession Question
 			}
 		}
 	}
