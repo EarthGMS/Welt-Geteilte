@@ -225,7 +225,7 @@ shared_focus = {
 	y = 3
 	prerequisite = { focus = SOV_glimpes_of_hope_in_trying_times }
 	completion_reward = {
-		#will give national spirit Post-Plan Boom
+		add_ideas = SOV_post_plan_boom
 	}
 }
 
