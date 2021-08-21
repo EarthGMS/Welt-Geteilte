@@ -44,5 +44,10 @@ spriteTypes = {
 		name = "GFX_report_event_the_marshals_end"
 		texturefile = "gfx/event_pictures/GFX_report_event_the_marshals_end.dds"
 	}
+
+	spriteType = {
+		name = "GFX_report_event_george_vi_death"
+		texturefile = "gfx/event_pictures/george_vi_death.dds"
+	}
 	
 }
