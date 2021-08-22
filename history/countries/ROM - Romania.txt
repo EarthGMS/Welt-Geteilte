@@ -262,7 +262,7 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = marxism_leninism
+		ruling_party = market_socialism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
@@ -270,8 +270,8 @@ set_popularities = {
 	set_popularities = {
 		vanguardism = 20
 		libertarian_socialism = 35
-		marxism_leninism = 43
-		market_socialism = 2
+		market_socialism = 43
+		marxism_leninism = 2
 	}
 }
 

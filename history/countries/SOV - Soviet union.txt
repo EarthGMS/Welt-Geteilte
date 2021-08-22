@@ -14,15 +14,16 @@ load_focus_tree = SOV_start
 set_convoys = 50
 
 set_politics = {
-	ruling_party = marxism_leninism
+	ruling_party = market_socialism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	marxism_leninism = 70
-	vanguardism = 15
-	libertarian_socialism = 15
+	market_socialism = 70
+	marxism_leninism = 15
+	libertarian_socialism = 10
+	vanguardism = 5
 }
 
 ###### WARSAW PACT ######
@@ -34,6 +35,12 @@ add_to_faction = MON
 add_to_faction = FIN
 ##############################
 
+add_ai_strategy = {
+    type = alliance
+    id = "POL"
+    value = 200
+}
+
 add_ideas = {
 	
 }
@@ -43,7 +50,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "gfx/leaders/USSR/Portrait_SOV_Lev_Kamenev.png"
 	expire = "2000.3.1"
-	ideology = state_socialism
+	ideology = management_socialism
 	traits = {
 		
 	}

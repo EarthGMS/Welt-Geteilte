@@ -11,16 +11,16 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = marxism_leninism
+	ruling_party = market_socialism
 	last_election = "1939.7.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	marxism_leninism = 60
-	market_socialism = 10
+	market_socialism = 60
+	marxism_leninism = 10
 	social_democracy = 10
-	liberation_socialism = 20
+	liberatian_socialism = 20
 }
 
 create_country_leader = {
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "gfx/leaders/FIN/Portrait_FIN_Aimo_Aaltonen.png"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = management_socialism
 	traits = {
 		#
 	}

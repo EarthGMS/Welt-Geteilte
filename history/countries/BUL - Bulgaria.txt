@@ -24,11 +24,11 @@ set_technology = { #VANILLA & DLC
 	#POLIICS
 	set_popularities = { #VANILLA & DLC
 		vanguardism = 5
-		market_socialism = 35
-		marxism_leninism = 60
+		marxism_leninism = 35
+		market_socialism = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = marxism_leninism
+		ruling_party = market_socialism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no
@@ -39,7 +39,7 @@ set_technology = { #VANILLA & DLC
 		desc = "POLITICS_JOSEPH_STALIN_DESC"
 		picture = "gfx/leaders/BUL/Portrait_BUL_Todor_Zhivkov.png"
 		expire = "2000.3.1"
-		ideology = state_socialism
+		ideology = management_socialism
 		traits = {
 		
 	}
