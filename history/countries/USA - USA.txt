@@ -29,6 +29,17 @@ add_to_faction = NOR
 add_to_faction = MEX
 ##############################
 
+add_ai_strategy = {
+    type = alliance
+    id = "MEX"
+    value = 200
+}
+add_ai_strategy = {
+    type = alliance
+    id = "ENG"
+    value = 200
+}
+
 add_ideas = {
 	USA_golden_age_of_capitalism
 	USA_leader_of_the_free_world
