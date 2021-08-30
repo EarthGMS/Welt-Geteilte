@@ -27,6 +27,8 @@ add_to_faction = ENG
 add_to_faction = CAN 
 add_to_faction = NOR 
 add_to_faction = MEX
+add_to_faction = AST
+add_to_faction = NZL
 ##############################
 
 add_ai_strategy = {
