@@ -107,13 +107,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Aisin Gioro Puyi"
+	name = "Zhou Enlai"
 	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "gfx/leaders/MAN/portrait_MAN_Zhou_Enlai.png
 	expire = "1960.1.1"
-	ideology = rexism
+	ideology = marxism
 	traits = {
-		warrior_code
 	}
 }
 
