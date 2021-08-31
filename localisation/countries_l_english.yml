@@ -1,5 +1,9 @@
 ﻿l_english:
 
+ BDG_conservative_democracy:0 "Brandenburg"
+ BDG_DEF:0 "Brandenburg"
+ BDG_ADJ:0 "Brandenburgian"
+
  IRQ_democracy:0 "Iraqi Republic"
  IRQ_DEF:0 "the Iraqi Republic"
  IRQ_ADJ:0 "Iraqi"
