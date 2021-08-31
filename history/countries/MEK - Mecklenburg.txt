@@ -25,9 +25,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Louis Ferdinand"
-	desc = "POLITICS_LOUIS_FERDINAND_DESC"
-	picture = "gfx/leaders/MEK/Portrait_MEK_Louis_Ferdinand.png"
+	name = "Erich Raeder"
+	desc = "POLITICS_ERICH_RAEDER_DESC"
+	picture = "gfx/leaders/MEK/Portrait_MEK_Erich_Raeder.png"
 	expire = "1967.1.1"
 	ideology = despotism_ideology
 	traits = {
