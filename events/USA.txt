@@ -1,7 +1,26 @@
 add_namespace = daily_summary
 add_namespace = USA_flavour
 add_namespace = USA_diplomatic
+add_namespace = USA_election
 
+country_event = {
+	id = USA_election.1
+	title = USA_election.1.t
+	desc = USA_election.1.d
+	picture = GFX_report_event_election_season
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = USA_election.1.a
+	}
+	option = {
+		name = USA_election.1.b
+
+	}
+}
 
 country_event = {
 	id = daily_summary.1
