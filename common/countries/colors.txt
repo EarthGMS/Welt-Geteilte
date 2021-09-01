@@ -3,6 +3,18 @@ IBR = {
 	color = rgb { 255  169  0 }
 	color_ui = rgb { 255  169  0 }
 }
+ICO = {
+	color = rgb { 239 81 86 }
+	color_ui = rgb { 239 81 86 }
+}
+AFF = {
+	color = rgb { 86  84  255 }
+	color_ui = rgb { 86  84  255 }
+}
+AAG = {
+	color = rgb { 255  182  0 }
+	color_ui = rgb { 255  182  0 }
+}
 LEV = {
 	color = rgb { 0  74  127 }
 	color_ui = rgb { 0  74  127 }

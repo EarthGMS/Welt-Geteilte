@@ -4,6 +4,18 @@
  BDG_DEF:0 "Brandenburg"
  BDG_ADJ:0 "Brandenburgian"
 
+ AAG_social_democracy:0 "Austrian Anti-Fascist Guard"
+ AAG_DEF:0 "Austrian Anti-Fascist Guard"
+ AAG_ADJ:0 "Austrian"
+
+ AFF_fascism:0 "Austrian Fatherland Front"
+ AFF_DEF:0 "Austrian Fatherland Front"
+ AFF_ADJ:0 "Austrian"
+
+ ICO_social_liberalism:0 "Innsbruck Confederacy"
+ ICO_DEF:0 "Innsbruck Confederacy"
+ ICO_ADJ:0 "Austrian"
+
  IRQ_democracy:0 "Iraqi Republic"
  IRQ_DEF:0 "the Iraqi Republic"
  IRQ_ADJ:0 "Iraqi"

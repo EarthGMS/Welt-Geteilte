@@ -1,4 +1,7 @@
 GER	= "countries/Germany.txt"
+AAG = "countries/Austrian Anti-Fascist Guard.txt"
+AFF = "countries/Austrian Fatherland Front.txt"
+ICO = "countries/Innsbruck Confederacy.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"
