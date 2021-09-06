@@ -19,8 +19,7 @@ set_politics = {
 set_popularities = {
 	market_socialism = 60
 	marxism_leninism = 10
-	social_democracy = 10
-	liberatian_socialism = 20
+	authoritarian_democracy = 30
 }
 
 create_country_leader = {

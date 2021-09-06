@@ -269,9 +269,8 @@ set_popularities = {
 	}
 	set_popularities = {
 		vanguardism = 20
-		libertarian_socialism = 35
 		market_socialism = 43
-		marxism_leninism = 2
+		marxism_leninism = 37
 	}
 }
 
@@ -291,7 +290,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
 	picture = "gfx/leaders/ROM/Portrait_ROM_Petru_Groza.png"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = management_socialism
 	traits = {
 		#
 	}
