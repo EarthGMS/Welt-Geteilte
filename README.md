@@ -1,3 +1,3 @@
-# Triumph-of-Liberty
+# Welt Geteilte
 
-Triumph of Liberty
+This is a repository for Welt Geteilte (Discontinued)
